@@ -1,5 +1,3 @@
-# Marco
-
 * 一、读后感
 * [软技能](books/《软技能》读后感)
 * [Never lost again](books/谷歌地图的诞生)
