@@ -7,6 +7,7 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css"/>
   <style>
     .content {
       overflow: auto;
@@ -62,5 +63,23 @@
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-count@latest/dist/countable.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+<script>
+  // gitalk
+  var pathNames = decodeURI(window.location.href).split('#/');
+  var pathName = pathNames && pathNames[1] ? pathNames[1] : '/'
+  console.log(pathNames);
+  const gitalk = new Gitalk({
+    clientID: '9db37194ad0b964bf2b8',
+    clientSecret: 'e3b50450b3facb085fc699f07d541c4784914e6d',
+    repo: 'marcoAtom.github.io',
+    owner: 'marcoAtom',
+    admin: ['marcoAtom'],
+    distractionFreeMode: false,
+    id: pathName.split('?')[0],
+    language: 'zh-CN',
+  })
+</script>
 </body>
 </html>
