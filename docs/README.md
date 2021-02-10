@@ -1,6 +1,10 @@
 ## To do list:
 - [x] immagrate to docsify
 - [x] readme page
-- [ ] add comments feature
-- [ ] figure out how to add pictures in github pages
+- [x] add comments feature
+
+  gitalk
+- [x] figure out how to add pictures in github pages
+
+  七牛云
 
