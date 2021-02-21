@@ -1,6 +1,7 @@
 * 一、读后感
-* [软技能](books/《软技能》读后感)
-* [Never lost again](books/谷歌地图的诞生)
+* [软技能](books/软技能)
+* [Never lost again](books/Neverlostagain)
+* [莫斯科绅士](books/莫斯科绅士)
 
 * 二、编程
 * [谷歌插件-回到顶部](coding/谷歌插件-回到顶部)
