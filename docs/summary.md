@@ -1,6 +1,6 @@
 * 一、读后感
 * [软技能](books/软技能)
-* [Never lost again](books/Neverlostagain)
+* [Never lost again](books/谷歌方法)
 * [莫斯科绅士](books/莫斯科绅士)
 
 * 二、编程
